@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 
 export default function Projects(props) {
   // const [employeesList, setEmployeesList] = useState(props.employeesList);
@@ -14,9 +14,7 @@ export default function Projects(props) {
       );
     });
     
-  function ActionLink (key) {
-    props.ActionLink(key);
-  }
+  
 console.log("employee Render");
   return (
     <div>
