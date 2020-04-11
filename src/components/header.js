@@ -16,7 +16,7 @@ export default function Header(props) {
 
   return (
     <div>
-      <div className="jumbotron jumbotron-fluid">
+      <div className="jumbotron jumbotron-fluid justify-content-center">
         
           <thead>
            
