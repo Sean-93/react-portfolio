@@ -9,7 +9,7 @@ export default function Projects(props) {
           <td>{item.name}</td>
           <td>{item.technologies}</td>
           <td><link>{item.GitHub}</link></td>
-          <td><link>{item.application}</link>{item.application}</td>
+          <td><link>{item.application}</link></td>
         </tr>
       );
     });
