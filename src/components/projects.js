@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Projects(props) {
   // const [employeesList, setEmployeesList] = useState(props.employeesList);
-  const employee = props.projectList.map((item, index) => {
+  const projects = props.projectList.map((item, index) => {
       return (
         <tr>
           <th scope="row">{index+1}</th>
@@ -31,7 +31,7 @@ export default function Projects(props) {
             </tr>
           </thead>
           <tbody>
-          {employee}
+          {projects}
           </tbody>
         </table>
       </div>
