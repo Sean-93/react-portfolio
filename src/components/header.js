@@ -6,8 +6,8 @@ export default function Header(props) {
       return (
         
     <div className="container">
-    <h1 className="display-4">{item.fullName}</h1>
-    <p className="lead">{item.title} | {item.email}</p>
+    <h1 className="display-4 text-center">{item.fullName}</h1>
+    <p className="lead text-center">{item.title} | {item.email}</p>
     </div>
 
       );

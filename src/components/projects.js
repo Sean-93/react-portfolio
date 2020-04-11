@@ -18,7 +18,7 @@ export default function Projects(props) {
   return (
     <div>
       <div className="container-fluid">
-        <h1 className="justify-content-center">Highlighted Projects:</h1>
+        <h1 className="text-center">Highlighted Projects:</h1>
         <table className="table table-dark">
           <thead>
             <tr>
