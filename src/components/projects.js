@@ -9,13 +9,12 @@ export default function Projects(props) {
           <td>{item.name}</td>
           <td>{item.technologies}</td>
           <td>{item.GitHub}</td>
-          <td>{item.Heroku}</td>
+          <td>{item.application}</td>
         </tr>
       );
     });
     
-  
-console.log("employee Render");
+
   return (
     <div>
       <div className="container-fluid">
@@ -27,7 +26,7 @@ console.log("employee Render");
               <th scope="col">Name:</th>
               <th scope="col">Technologies:</th>
               <th scope="col">GitHub Link:</th>
-              <th scope="col">Heroku Link:</th>
+              <th scope="col">Application Link:</th>
               
             </tr>
           </thead>
