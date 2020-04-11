@@ -8,8 +8,8 @@ export default function Projects(props) {
           <th scope="row">{index+1}</th>
           <td>{item.name}</td>
           <td>{item.technologies}</td>
-          <td>{item.GitHub}</td>
-          <td>{item.application}</td>
+          <td><link>{item.GitHub}</link></td>
+          <td><link>{item.application}</link></td>
         </tr>
       );
     });
