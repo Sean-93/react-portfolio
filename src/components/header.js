@@ -5,11 +5,9 @@ export default function Header(props) {
   const header = props.headerInfo.map((item, index) => {
       return (
         
-    <div className="jumbotron jumbotron-fluid">
     <div className="container">
     <h1 className="display-4">{item.fullName}</h1>
     <p className="lead">{item.title} | {item.email}</p>
-    </div>
     </div>
 
       );
@@ -18,7 +16,7 @@ export default function Header(props) {
 
   return (
     <div>
-      <div className="jumbotron">
+      <div className="jumbotron jumbotron-fluid">
         
           <thead>
            
