@@ -4,14 +4,14 @@ export default function Header(props) {
   // const [employeesList, setEmployeesList] = useState(props.employeesList);
   const header = props.headerInfo.map((item, index) => {
       return (
-        <tr>
-          <td>{item.fullName}</td>
-          <br/>
-          <td>{item.title}</td>
-          <br/>
-          <td>{item.email}</td>
-          <br/>
-        </tr>
+        
+    <div className="jumbotron jumbotron-fluid">
+    <div className="container">
+    <h1 className="display-4">{item.fullName}</h1>
+    <p className="lead">{item.title} | {item.email}</p>
+    </div>
+    </div>
+
       );
     });
     
@@ -23,7 +23,7 @@ export default function Header(props) {
           <thead>
            
           {header}
-          
+
           </thead>
           <tbody>
           </tbody>
