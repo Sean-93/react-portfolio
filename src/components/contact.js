@@ -4,20 +4,21 @@ export default function Contact(props) {
   // const [employeesList, setEmployeesList] = useState(props.employeesList);
   const contact = props.contactInfo.map((item, index) => {
       return (
-        <tr>
-          <td>{item.fullName}</td>
-          <br/>
-          <td>{item.title}</td>
-          <br/>
-          <td>{item.email}</td>
-          <br/>
-          <td>{item.linkedIn}</td>
-          <br/>
-          <td>{item.gitHub}</td>
-          <br/>
-          <td>{item.phoneNumber}</td>
-          <br/>
-        </tr>
+        <div className="card">
+        <div className="card-header">
+             Contact Info:
+        </div>
+        <ul className="list-group list-group-flush">
+        <li className="list-group-item">{item.fullName}</li>
+        <li className="list-group-item">{item.title}</li>
+        <li className="list-group-item">{item.email}</li>
+        <li className="list-group-item">{item.linkedIn}</li>
+        <li className="list-group-item">{item.gitHub}</li>
+        <li className="list-group-item">{item.phoneNumber}</li>
+        </ul>
+        </div>
+
+        
         
       );
     });
