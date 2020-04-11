@@ -1,6 +1,7 @@
 
 import React from 'react';
-import Projects from './components/projects'
+import Projects from './components/projects';
+import Header from './components/header';
 
 const projectList = [
   {
@@ -51,7 +52,27 @@ const projectList = [
     GitHub: "https://github.com/Sean-93/checkit" ,
     application: "In development"
 
-  },
+  }
+];
+
+const headerInfo = [
+  {
+    fullName: "Sean Rooney",
+    title: "Junior Stack Developer",
+    email: "Seandanielrooney@gmail.com",
+    linkedIn: "https://www.linkedin.com/in/sean-d-rooney",
+    gitHub: "https://github.com/Sean-93",
+    phoneNumber: "480-410-2388"
+
+  }
+];
+
+const contactInfo = [
+  {
+    fullName: "Sean Rooney",
+    email: "Seandanielrooney@gmail.com",
+    phoneNumber: "480-410-2388"
+  }
 ]
 
 function App() {
@@ -59,11 +80,12 @@ function App() {
     <div className="App">
       <header className="App-header">
         
+      <Header headerInfo={headerInfo}/>
       </header>
 
       <Projects projectList={projectList}/>
     </div>
   );
-}
+};
 
 export default App;
