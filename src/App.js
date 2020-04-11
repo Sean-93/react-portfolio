@@ -55,7 +55,7 @@ const projectList = [
   }
 ];
 
-const headerInfo = [
+const contactInfo = [
   {
     fullName: "Sean Rooney",
     title: "Junior Stack Developer",
@@ -67,11 +67,11 @@ const headerInfo = [
   }
 ];
 
-const contactInfo = [
+const headerInfo = [
   {
     fullName: "Sean Rooney",
-    email: "Seandanielrooney@gmail.com",
-    phoneNumber: "480-410-2388"
+    title: "Junior Stack Developer",
+    email: "Seandanielrooney@gmail.com"
   }
 ]
 
@@ -79,11 +79,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        
       <Header headerInfo={headerInfo}/>
       </header>
 
       <Projects projectList={projectList}/>
+      <Contact contactInfo={contactInfo}/>
     </div>
   );
 };

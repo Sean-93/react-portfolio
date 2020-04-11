@@ -6,11 +6,11 @@ export default function Header(props) {
       return (
         <tr>
           <td>{item.fullName}</td>
+          <br/>
           <td>{item.title}</td>
+          <br/>
           <td>{item.email}</td>
-          <td>{item.linkedIn}</td>
-          <td>{item.gitHub}</td>
-          <td>{item.phoneNumber}</td>
+          <br/>
         </tr>
       );
     });
@@ -22,9 +22,10 @@ export default function Header(props) {
         
           <thead>
            
+          {header}
+          
           </thead>
           <tbody>
-          {header}
           </tbody>
         
       </div>
