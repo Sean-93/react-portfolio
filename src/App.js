@@ -2,6 +2,7 @@
 import React from 'react';
 import Projects from './components/projects';
 import Header from './components/header';
+import Contact from './components/contact';
 
 const projectList = [
   {
