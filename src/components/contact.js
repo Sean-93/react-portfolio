@@ -12,8 +12,8 @@ export default function Contact(props) {
         <li className="list-group-item">{item.fullName}</li>
         <li className="list-group-item">{item.title}</li>
         <li className="list-group-item">{item.email}</li>
-        <li className="list-group-item">{item.linkedIn}</li>
-        <li className="list-group-item">{item.gitHub}</li>
+        <li className="list-group-item"><a target="_blank" href={item.linkedIn}>{item.linkedIn}</a></li>
+        <li className="list-group-item"><a target="_blank" href={item.gitHub}>{item.gitHub}</a></li>
         <li className="list-group-item">{item.phoneNumber}</li>
         </ul>
         </div>
