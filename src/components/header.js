@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from 'react-router-dom';
 
 export default function Header(props) {
-  // const [employeesList, setEmployeesList] = useState(props.employeesList);
+  
   const header = props.headerInfo.map((item, index) => {
       return (
         
@@ -17,7 +17,7 @@ export default function Header(props) {
 
   return (
     <div>
-      <div className="jumbotron jumbotron-fluid justify-content-center">
+      <div className="jumbotron jumbotron-fluid text-center">
         
           <thead>
            

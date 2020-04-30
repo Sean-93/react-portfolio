@@ -71,11 +71,11 @@ const headerInfo = [
   },
 ];
 
-const bioInfo = [
-  {
-    text: "My name is sean and I am a full-stack developer"
-  }
-]
+// const bioInfo = [
+//   {
+//     text: "My name is sean and I am a full-stack developer"
+//   }
+// ]
 
 function App() {
   return (
@@ -86,7 +86,7 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/">
-            <Bio bioInfo={bioInfo}/>
+            <Bio />
           </Route>
           <Route exact path="/projects">
             <Projects projectList={projectList} />
