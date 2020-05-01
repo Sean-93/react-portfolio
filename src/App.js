@@ -45,7 +45,7 @@ const projectList = [
     application: "https://murmuring-chamber-35666.herokuapp.com/",
   },
   {
-    name: "Checkit (In Development)",
+    name: "Checkit (in development)",
     technologies: "React, MongoDB, Mongoose",
     GitHub: "https://github.com/Sean-93/checkit",
     application: "https://secret-cliffs-11777.herokuapp.com/",
@@ -73,12 +73,6 @@ const headerInfo = [
     bioLink:"Bio"
   },
 ];
-
-// const bioInfo = [
-//   {
-//     text: "My name is sean and I am a full-stack developer"
-//   }
-// ]
 
 function App() {
   return (

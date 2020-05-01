@@ -23,6 +23,8 @@ export default function Header(props) {
            
           {header}
 
+          <ul />{" "}<Link to="/contact">Contact</Link>{" "} | {" "}<Link to="/projects">Projects</Link>{" "} | {" "}<Link to="/bio">Main</Link>{" "}
+
           </thead>
           <tbody>
           </tbody>
