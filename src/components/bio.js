@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export default function bio() {
   return (
     <div className="container">
-      <div className="card-header"><img className="img-responsive" src="../public/assets/portfolio-pic.png" alt="portfolio-picture"/></div>
+      <div className="card-header"><img className="img-responsive position-left" src="../public/assets/portfolio-pic.png" alt="portfolio-picture"/>
       <ul />
         My name is Sean, and I am a web developer from Tempe, Arizona. I have
         worked on projects that include HTML, CSS, and Javascript as well as
@@ -16,6 +16,9 @@ export default function bio() {
         Please feel free to{" "}<Link to="/contact">contact me</Link>{" "}for inquiries and more info.
         <ul />
         You can also check out my past projects{" "}<Link to="/projects">here</Link>{" "}if you want to see what I've been working on.
+      
+      </div>
+      
         
       
     </div>
