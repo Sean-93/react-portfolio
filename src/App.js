@@ -7,48 +7,54 @@ import { BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"; 
 
 const projectList = [
   {
-    name: "Password Generator",
-    technologies: "Javascript",
-    GitHub: "https://github.com/Sean-93/random-password-generator",
-    application: "https://sean-93.github.io/random-password-generator",
+    name: "Checkit (in development)",
+    technologies: "React, Node, Express, MongoDB, Mongoose",
+    GitHub: "https://github.com/Sean-93/checkit",
+    application: "https://secret-cliffs-11777.herokuapp.com/",
   },
   {
     name: "Weather Dashboard",
-    technologies: "Javascript, JQuery",
+    technologies: "Javascript, JQuery, Bootstrap",
     GitHub: "https://github.com/Sean-93/weather-dashboard",
     application: "https://sean-93.github.io/weather-dashboard",
   },
   {
     name: "Find Tune",
-    technologies: "Javascript",
+    technologies: "Javascript, Bulma",
     GitHub: "https://github.com/justinkellogg89/find-tune",
     application: "https://justinkellogg89.github.io/find-tune/",
   },
   {
     name: "Node Readme Generator",
-    technologies: "Node.JS",
+    technologies: "Node.Js",
     GitHub: " https://github.com/Sean-93/node-readme-generator",
     application:
       "video: https://drive.google.com/file/d/1pH7W_hQB0Ij2Ij6LrLVPv9ZkMrBVCcad/view?usp=sharing",
   },
   {
     name: "MySQL Employee Tracker",
-    technologies: "Node.JS, MySQL",
+    technologies: "Node.Js, MySQL",
     GitHub: " https://github.com/Sean-93/mysql-employee-tracker",
     application:
       "video: https://drive.google.com/file/d/1ZbBHbeEWxy-31YYpLBlV0Xy1x3rceczR/view?usp=sharing",
   },
   {
     name: "Node Express Burger Tracker",
-    technologies: "Node, Express, Handlebars",
+    technologies: "Node.Js, Express, Handlebars",
     GitHub: "https://github.com/Sean-93/node-express-burger-log",
     application: "https://murmuring-chamber-35666.herokuapp.com/",
   },
   {
-    name: "Checkit (in development)",
-    technologies: "React, MongoDB, Mongoose",
-    GitHub: "https://github.com/Sean-93/checkit",
-    application: "https://secret-cliffs-11777.herokuapp.com/",
+    name: "Password Generator",
+    technologies: "Javascript",
+    GitHub: "https://github.com/Sean-93/random-password-generator",
+    application: "https://sean-93.github.io/random-password-generator",
+  },
+  {
+    name: "Workday Scheduler",
+    technologies: "Javascript, JQuery, Boostrap",
+    GitHub: "https://github.com/Sean-93/Work-Day-Scheduler",
+    application: "https://sean-93.github.io/Work-Day-Scheduler/",
   },
 ];
 

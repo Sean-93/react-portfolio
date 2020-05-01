@@ -1,8 +1,8 @@
 import React from "react";
-// import { Link } from 'react-router-dom';
+
 
 export default function Projects(props) {
-  // const [employeesList, setEmployeesList] = useState(props.employeesList);
+ 
   const projects = props.projectList.map((item, index) => {
       return (
         <tr>
@@ -21,8 +21,8 @@ export default function Projects(props) {
         <h1 className="text-center">Highlighted Projects:</h1>
         <table className="table table-dark">
           <thead>
-            <tr>
-              <th scope="col">#</th>
+            <tr className="card m-1">
+              
               <th scope="col">Name:</th>
               <th scope="col">Technologies:</th>
               <th scope="col">GitHub Link:</th>
