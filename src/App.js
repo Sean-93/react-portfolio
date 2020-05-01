@@ -68,9 +68,6 @@ const headerInfo = [
     fullName: "Sean Rooney",
     title: "Full-Stack Developer",
     email: "Seandanielrooney@gmail.com",
-    contactLink: "Contact",
-    projectsLink: "Projects",
-    bioLink:"Bio"
   },
 ];
 
