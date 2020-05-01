@@ -3,7 +3,7 @@ import Projects from "./components/projects";
 import Header from "./components/header";
 import Bio from "./components/bio";
 import Contact from "./components/contact";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route} from "react-router-dom"; //add link in later <==
 
 const projectList = [
   {

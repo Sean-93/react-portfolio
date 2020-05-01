@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 export default function Contact(props) {
   // const [employeesList, setEmployeesList] = useState(props.employeesList);
@@ -13,8 +13,8 @@ export default function Contact(props) {
         <li className="list-group-item">{item.fullName}</li>
         <li className="list-group-item">{item.title}</li>
         <li className="list-group-item">{item.email}</li>
-        <li className="list-group-item"><a target="_blank" href={item.linkedIn}>{item.linkedIn}</a></li>
-        <li className="list-group-item"><a target="_blank" href={item.gitHub}>{item.gitHub}</a></li>
+        <li className="list-group-item"><a target="_blank" rel="noopener noreferrer" href={item.linkedIn}>{item.linkedIn}</a></li>
+        <li className="list-group-item"><a target="_blank" rel="noopener noreferrer" href={item.gitHub}>{item.gitHub}</a></li>
         <li className="list-group-item">{item.phoneNumber}</li>
         </ul>
         </div>
