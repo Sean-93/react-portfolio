@@ -45,10 +45,10 @@ const projectList = [
     application: "https://murmuring-chamber-35666.herokuapp.com/",
   },
   {
-    name: "Checkit",
+    name: "Checkit (In Development)",
     technologies: "React, MongoDB, Mongoose",
     GitHub: "https://github.com/Sean-93/checkit",
-    application: "In development",
+    application: "https://secret-cliffs-11777.herokuapp.com/",
   },
 ];
 
@@ -68,6 +68,9 @@ const headerInfo = [
     fullName: "Sean Rooney",
     title: "Full-Stack Developer",
     email: "Seandanielrooney@gmail.com",
+    contactLink: "Contact",
+    projectsLink: "Projects",
+    bioLink:"Bio"
   },
 ];
 
