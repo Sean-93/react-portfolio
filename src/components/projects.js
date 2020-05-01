@@ -5,13 +5,15 @@ export default function Projects(props) {
  
   const projects = props.projectList.map((item, index) => {
       return (
-        <tr className="card m-1">
+        <article className="container">
           <th scope="row">{index+1}</th>
-          <td>{item.name}</td>
-          <td>{item.technologies}</td>
-          <td> <a target="_blank" rel="noopener noreferrer" href={item.gitHub}>{item.gitHub}</a></td>
-          <td> <a target="_blank" rel="noopener noreferrer" href={item.application}>{item.application}</a></td>
-        </tr>
+          <p className="card">
+          <li>{item.name}</li>
+          <li>{item.technologies}</li>
+          <li> <a target="_blank" rel="noopener noreferrer" href={item.gitHub}>{item.gitHub}</a></li>
+          <li> <a target="_blank" rel="noopener noreferrer" href={item.application}>{item.application}</a></li>
+          </p>
+        </article>
       );
     });
 
