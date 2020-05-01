@@ -13,7 +13,7 @@ app.use(express.static(path.join(__dirname, 'static'))); //new, not sure if corr
 app.get('/ping', function (req, res) {
  return res.send('pong');
 });
-app.get('/*', function (req, res) {
+app.get('build/*', function (req, res) {
   res.sendFile(path.join(__dirname,'index.html'));
 });
 app.listen(port);
