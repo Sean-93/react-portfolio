@@ -9,12 +9,11 @@ export default function Projects(props) {
           <th scope="row">{index+1}</th>
           <td>{item.name}</td>
           <td>{item.technologies}</td>
-          <td>{item.GitHub}</td>
-          <td>{item.application}</td>
+          <td> <a target="_blank" rel="noopener noreferrer" href={item.gitHub}>{item.gitHub}</a></td>
+          <td> <a target="_blank" rel="noopener noreferrer" href={item.application}>{item.application}</a></td>
         </tr>
       );
     });
-    
 
   return (
     <div>

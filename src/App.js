@@ -55,7 +55,7 @@ const projectList = [
 const contactInfo = [
   {
     fullName: "Sean Rooney",
-    title: "Junior Stack Developer",
+    title: "Full-Stack Developer",
     email: "Seandanielrooney@gmail.com",
     linkedIn: "https://www.linkedin.com/in/sean-d-rooney",
     gitHub: "https://github.com/Sean-93",
@@ -66,7 +66,7 @@ const contactInfo = [
 const headerInfo = [
   {
     fullName: "Sean Rooney",
-    title: "Junior Stack Developer",
+    title: "Full-Stack Developer",
     email: "Seandanielrooney@gmail.com",
   },
 ];
