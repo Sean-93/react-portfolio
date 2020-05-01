@@ -74,10 +74,10 @@ const headerInfo = [
 function App() {
   return (
     <div className="App">
+      <Router>
       <header className="App-header">
         <Header headerInfo={headerInfo} />
       </header>
-      <Router>
         <Switch>
           <Route exact path="/">
             <Bio />
