@@ -52,7 +52,7 @@ const projectList = [
   },
   {
     name: "Workday Scheduler",
-    technologies: "Javascript, JQuery, Boostrap",
+    technologies: "Javascript, JQuery, Bootstrap",
     GitHub: "https://github.com/Sean-93/Work-Day-Scheduler",
     application: "https://sean-93.github.io/Work-Day-Scheduler/",
   },
