@@ -76,7 +76,6 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Header headerInfo={headerInfo} />
-        <ul />{" "}<Link to="/contact">Contact</Link>{" "} | {" "}<Link to="/projects">Projects</Link>{" "} | {" "}<Link to="/bio">Main</Link>{" "}
       </header>
       <Router>
         <Switch>
