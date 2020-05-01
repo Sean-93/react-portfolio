@@ -3,7 +3,7 @@ import Projects from "./components/projects";
 import Header from "./components/header";
 import Bio from "./components/bio";
 import Contact from "./components/contact";
-import { BrowserRouter as Router, Switch, Route} from "react-router-dom"; //add link in later <==
+import { BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"; //add link in later <==
 
 const projectList = [
   {
@@ -76,6 +76,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Header headerInfo={headerInfo} />
+        <ul />{" "}<Link to="/contact">Contact</Link>{" "} | {" "}<Link to="/projects">Projects</Link>{" "} | {" "}<Link to="/bio">Main</Link>{" "}
       </header>
       <Router>
         <Switch>

@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 export default function Header(props) {
   
@@ -22,8 +22,6 @@ export default function Header(props) {
           <thead>
            
           {header}
-
-          <ul />{" "}<Link to="/contact">Contact</Link>{" "} | {" "}<Link to="/projects">Projects</Link>{" "} | {" "}<Link to="/bio">Main</Link>{" "}
 
           </thead>
           <tbody>
