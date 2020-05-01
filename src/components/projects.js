@@ -5,7 +5,7 @@ export default function Projects(props) {
  
   const projects = props.projectList.map((item, index) => {
       return (
-        <tr>
+        <tr className="card m-1">
           <th scope="row">{index+1}</th>
           <td>{item.name}</td>
           <td>{item.technologies}</td>
@@ -21,7 +21,7 @@ export default function Projects(props) {
         <h1 className="text-center">Highlighted Projects:</h1>
         <table className="table table-dark">
           <thead>
-            <tr className="card m-1">
+            <tr>
               
               <th scope="col">Name:</th>
               <th scope="col">Technologies:</th>
